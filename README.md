@@ -14,6 +14,13 @@ Install this extension via [composer](http://getcomposer.org/download). Add this
 ## Usage
 
 ```php
+//渲染带输入框的控件
+<?= \bestyii\clipboardjs\ClipboardInputWidget::widget([
+            'text' => 'https://www.bestyii.com',
+             'label' => '复制到剪贴板',
+             'successText' => '复制成功！',
+        ]) ?>
+
 //Button to copy text
 <?= \bestyii\clipboardjs\ClipboardJsWidget::widget([
     'text' => "Hello World",
