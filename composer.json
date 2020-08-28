@@ -10,7 +10,7 @@
   "require": {
     "php": ">=5.4.0",
     "yiisoft/yii2": "*",
-    "npm-asset/clipboard": "^1.5"
+    "npm-asset/clipboard": "^2.0"
   },
   "autoload": {
     "psr-4": {
