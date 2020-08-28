@@ -17,7 +17,7 @@ class ClipboardJsAsset extends AssetBundle
 		parent::registerAssetFiles($view);
 		//Show the full value if the copy fails. This is the final fallback.
 		$view->registerJs("
-		var clipboard = new Clipboard('.clipboard-js-init');
+		var clipboard = new ClipboardJS('.clipboard-js-init');
 		clipboard.on('success', function(e) {
             if(typeof e.trigger.dataset.clipboardSuccess !== 'undefined') {
               var reset = e.trigger.innerHTML;
