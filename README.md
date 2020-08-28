@@ -1,17 +1,18 @@
-# yii2-clipboardjs
+# yii2-clipboardjs 复制到剪贴板
+基于[Clipboardjs](https://clipboardjs.com/) 实现一键复制内容到剪贴板.
 
-An easy way to use [Clipboardjs](https://clipboardjs.com/) in your project. Clipboardjs is a javascript only way to copy text to the clipboard.
+[Clipboardjs](https://clipboardjs.com/)  是纯JavaScript实现的.
 
 
-## Installation
+## 安装 Installation
 
-Install this extension via [composer](http://getcomposer.org/download). Add this line to your project’s composer.json
+通过 [composer](http://getcomposer.org/download)安装扩展. 添加下面代码到项目的 composer.json文件中
 
 ```json
 "bestyii/yii2-clipboardjs":"*",
 ```
 
-## Usage
+## 使用 Usage
 
 ```php
 //渲染带输入框的控件
@@ -21,7 +22,7 @@ Install this extension via [composer](http://getcomposer.org/download). Add this
              'successText' => '复制成功！',
         ]) ?>
 
-//Button to copy text
+//按钮形式
 <?= \bestyii\clipboardjs\ClipboardJsWidget::widget([
     'text' => "Hello World",
     // 'label' => 'Copy to clipboard',
@@ -29,7 +30,7 @@ Install this extension via [composer](http://getcomposer.org/download). Add this
     // 'tag' => 'button',
 ]) ?>
 
-//Button to copy text from input id
+//点击按钮复制指定id的input值
 <?= \bestyii\clipboardjs\ClipboardJsWidget::widget([
     'inputId' => "#input-url",
     // 'cut' => false, // Cut the text out of the input instead of copy?
@@ -40,7 +41,7 @@ Install this extension via [composer](http://getcomposer.org/download). Add this
 
 ```
 
-## Just the Asset?
+## 直接调用静态资源 Just the Asset?
 
 Yes, you can use just the asset. 
 ```php
