@@ -7,8 +7,8 @@ An easy way to use [Clipboardjs](https://clipboardjs.com/) in your project. Clip
 
 Install this extension via [composer](http://getcomposer.org/download). Add this line to your project’s composer.json
 
-```php
-"bestyii/yii2-clipboardjs" : "*"
+```json
+"bestyii/yii2-clipboardjs":"*",
 ```
 
 ## Usage

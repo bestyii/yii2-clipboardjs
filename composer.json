@@ -1,21 +1,20 @@
 {
-    "name": "bestyii/yii2-clipboardjs",
-    "authors": [
-        {
-            "name": "Wil Wade",
-            "email": "wil@supplyhog.com"
-        }
-    ],
-    "license": "BSD-3-Clause",
-    "minimum-stability": "dev",
-    "require": {
-        "php" : ">=5.4.0",
-        "yiisoft/yii2" : "*",
-        "npm-asset/clipboard": "^1.5"
-    },
-    "autoload": {
-        "psr-4": {
-             "bestyii\\clipboardjs\\" : "src"
-        }
+  "name": "bestyii/yii2-clipboardjs",
+  "authors": [
+    {
+      "name": "ezsky",
+      "email": "ezsky@bestyii.com"
     }
+  ],
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "npm-asset/clipboard": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "bestyii\\clipboardjs\\": "src"
+    }
+  }
 }
