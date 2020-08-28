@@ -1,5 +1,5 @@
 {
-    "name": "supplyhog/yii2-clipboardjs",
+    "name": "bestyii/yii2-clipboardjs",
     "authors": [
         {
             "name": "Wil Wade",
@@ -11,11 +11,11 @@
     "require": {
         "php" : ">=5.4.0",
         "yiisoft/yii2" : "*",
-        "bower-asset/clipboard": "^1.5"
+        "npm-asset/clipboard": "^1.5"
     },
     "autoload": {
         "psr-4": {
-             "supplyhog\\ClipboardJs\\" : "src"
+             "bestyii\\clipboardjs\\" : "src"
         }
     }
 }

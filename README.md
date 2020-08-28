@@ -8,14 +8,14 @@ An easy way to use [Clipboardjs](https://clipboardjs.com/) in your project. Clip
 Install this extension via [composer](http://getcomposer.org/download). Add this line to your project’s composer.json
 
 ```php
-"supplyhog/yii2-clipboardjs" : "dev-master"
+"bestyii/yii2-clipboardjs" : "*"
 ```
 
 ## Usage
 
 ```php
 //Button to copy text
-<?= \supplyhog\ClipboardJs\ClipboardJsWidget::widget([
+<?= \bestyii\clipboardjs\ClipboardJsWidget::widget([
     'text' => "Hello World",
     // 'label' => 'Copy to clipboard',
     // 'htmlOptions' => ['class' => 'btn'],
@@ -23,7 +23,7 @@ Install this extension via [composer](http://getcomposer.org/download). Add this
 ]) ?>
 
 //Button to copy text from input id
-<?= \supplyhog\ClipboardJs\ClipboardJsWidget::widget([
+<?= \bestyii\clipboardjs\ClipboardJsWidget::widget([
     'inputId' => "#input-url",
     // 'cut' => false, // Cut the text out of the input instead of copy?
     // 'label' => 'Copy to clipboard',
@@ -35,4 +35,8 @@ Install this extension via [composer](http://getcomposer.org/download). Add this
 
 ## Just the Asset?
 
-Yes, you can use just the asset. ```php \supplyhog\ClipboardJs\ClipboardJsAsset::register($view)``` It will auto init anything with the "clipboard-js-init" class.
+Yes, you can use just the asset. 
+```php
+ \bestyii\clipboardjs\ClipboardJsAsset::register($view);
+``` 
+It will auto init anything with the "clipboard-js-init" class.

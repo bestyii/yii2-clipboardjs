@@ -1,13 +1,13 @@
 <?php
 
-namespace supplyhog\ClipboardJs;
+namespace bestyii\clipboardjs;
 
 use yii\web\AssetBundle;
 use yii\web\View;
 
 class ClipboardJsAsset extends AssetBundle
 {
-	public $sourcePath = '@bower/clipboard/dist';
+	public $sourcePath = '@npm/clipboard/dist';
 	public $js = [
 		'clipboard.min.js',
 	];
